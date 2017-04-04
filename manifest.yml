@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Appli-Test-Francoise
+  host: Appli-Test-Francoise
+  disk_quota: 1024M
+  services:
+  - Appli-Test-Francoise-cloudantNoSQLDB
